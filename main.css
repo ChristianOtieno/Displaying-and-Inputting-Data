@@ -42,7 +42,8 @@ header {
     text-decoration: none;
     font-size: 13px;
 }
-.form-logos span{
+
+.form-logos span {
     margin-right: 10px;
     position: relative;
     bottom: 10px;
@@ -133,7 +134,7 @@ p,
     background: #0077C5;
     border: #0077C5;
     margin-top: 30px;
-    width: 150px;
+    width: 360px;
     height: 40px;
     border-radius: 4px;
     color: #fff;
@@ -176,14 +177,17 @@ label {
     margin-top: 5px;
     width: 100%;
 }
-.form-footer  p{
+
+.form-footer p {
     margin-top: 10px;
     font-size: 10px;
 }
-.form-footer p a{
+
+.form-footer p a {
     text-decoration: none;
     color: #0077C5;
 }
+
 footer {
     margin: 0 auto;
     margin-top: 25px;
@@ -191,7 +195,8 @@ footer {
     width: 70%;
     padding: 10px;
 }
-footer p{
+
+footer p {
     font-size: 15px;
-    color:#505050;
+    color: #505050;
 }
