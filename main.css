@@ -1,6 +1,8 @@
-*{
+* {
     margin: 0;
 }
+
+
 /* The header begins */
 
 header {
@@ -15,8 +17,7 @@ header {
     flex-direction: column;
 }
 
-
-.signinButton input{
+.signinButton input {
     height: 40px;
     margin-right: 15px;
     width: 100px;
@@ -27,10 +28,44 @@ header {
     border: none;
     cursor: pointer;
 }
+
 .signinTwo {
     margin-top: 5px;
 }
-.signinTwo a{
+
+.signinTwo a {
     text-decoration: none;
 }
+
+
 /* The header ends */
+
+
+/* Form Begins */
+
+section {
+    width: 600px;
+    height: 700px;
+    margin: auto;
+    background: blueviolet;
+}
+
+.intuit-logo img {
+    height: 70px;
+    width: 250px;
+}
+
+.formTitle {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-logos img {
+    height: 50px;
+    width: 50px;
+}
+
+
+/* Form Ends */
