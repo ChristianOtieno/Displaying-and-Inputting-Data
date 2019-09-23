@@ -47,7 +47,7 @@ section {
     width: 600px;
     height: 700px;
     margin: auto;
-    /* background: blueviolet; */
+    background: blueviolet;
 }
 
 .intuit-logo img {
@@ -62,20 +62,34 @@ section {
     justify-content: center;
     align-items: center;
     /* background: grey; */
-}   
-.form-logos{
+}
+
+.form-logos {
     display: flex;
 }
+
 .form-logos img {
     height: 50px;
     width: 50px;
 }
-.formTitle a{
+
+.formTitle a {
     text-decoration: none;
     font-size: 20px;
-    color:grey;
+    color: grey;
     position: relative;
 }
 
 
 /* Form Ends */
+
+
+/* Form Body Begins */
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Form Body Ends */
