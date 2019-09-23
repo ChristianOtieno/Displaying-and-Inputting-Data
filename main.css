@@ -1,0 +1,16 @@
+header {
+    display: flex;
+    background-color: yellow;
+    justify-content: right;
+}
+
+.signIn {
+    display: flex;
+    flex-direction: column;
+}
+
+.signinButton {
+    background-color: blue;
+    display: block;
+    height: 100px;
+}
