@@ -1,13 +1,15 @@
 * {
     margin: 0;
 }
-
+body{
+    background: #ECEEF1;
+}
 
 /* The header begins */
 
 header {
     display: flex;
-    background-color: yellow;
+    /* background-color: yellow; */
     justify-content: right;
     padding: 10px 0 10px 0;
 }
@@ -47,7 +49,7 @@ section {
     width: 600px;
     height: 700px;
     margin: auto;
-    background: blueviolet;
+    background: #fff;
 }
 
 .intuit-logo img {
@@ -89,7 +91,26 @@ section {
 .form-section {
     display: flex;
     flex-direction: column;
+   align-items: center;
+}
+.email-field,.tel-field,.password-field{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
 }
 
-
-/* Form Body Ends */
+.submit-button{
+    text-align: center;
+}
+form h3,p,.learn-more{
+    text-align: center;
+}
+.submit-button input{
+    background: #0077C5;
+    border: #0077C5;
+    margin-top: 30px;
+    width: 150px;
+    height: 40px;
+    border-radius: 4px;
+    color: #fff;
+}
