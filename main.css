@@ -1,9 +1,11 @@
 * {
     margin: 0;
 }
-body{
-    background: #ECEEF1;
+
+body {
+    background: white;
 }
+
 
 /* The header begins */
 
@@ -46,10 +48,10 @@ header {
 /* Form Begins */
 
 section {
-    width: 600px;
-    height: 700px;
+    width: 400px;
+    /* height: 700px; */
     margin: auto;
-    background: #fff;
+    /* background: #ECEEF1; */
 }
 
 .intuit-logo img {
@@ -58,12 +60,12 @@ section {
 }
 
 .formTitle {
-    width: 600px;
+    width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background: grey; */
+    background: white;
 }
 
 .form-logos {
@@ -71,8 +73,8 @@ section {
 }
 
 .form-logos img {
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
 }
 
 .formTitle a {
@@ -91,21 +93,39 @@ section {
 .form-section {
     display: flex;
     flex-direction: column;
-   align-items: center;
+    align-items: center;
+    background: #ECEEF1;
+    border: 1px solid grey;
+    border-radius: 6px;
+    margin-top: 20px;
 }
-.email-field,.tel-field,.password-field{
+
+.email-field,
+.tel-field,
+.password-field {
     width: 90%;
     display: flex;
     flex-direction: column;
 }
 
-.submit-button{
+.submit-button {
     text-align: center;
+    margin-bottom: 20px;
 }
-form h3,p,.learn-more{
+
+form h3 {
+    margin-top: 35px;
+    /* margin-bottom: 20px; */
+}
+
+form h3,
+p,
+.learn-more {
     text-align: center;
+    margin-bottom: 20px;
 }
-.submit-button input{
+
+.submit-button input {
     background: #0077C5;
     border: #0077C5;
     margin-top: 30px;
@@ -113,4 +133,50 @@ form h3,p,.learn-more{
     height: 40px;
     border-radius: 4px;
     color: #fff;
+}
+
+.form-section .email-field input,
+.tel-field input,
+.password-field input {
+    border-radius: 4px;
+    height: 30px;
+    /* margin-bottom: 25px; */
+}
+
+.email-field input {
+    margin-bottom: 20px;
+}
+
+.password-field label {
+    margin-top: 20px;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+.tel-field span {
+    font-size: 10px;
+}
+
+.agreement {
+    text-align: center;
+    font-size: 12px;
+}
+
+.agreement a {
+    text-decoration: none;
+}
+
+.form-footer {
+    background: white;
+    margin-top: 110px;
+}
+
+footer {
+    margin: 0 auto;
+    margin-top: 150px;
+    text-align: center;
+    width: 70%;
+    padding: 10px;
 }
