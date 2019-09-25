@@ -169,8 +169,7 @@ p,
 
 .tel-field input,
 .password-field input,
-.form-section .email-field input,
-.password-field input {
+.form-section .email-field input {
     border-radius: 4px;
     height: 30px;
 }
@@ -202,6 +201,11 @@ label {
     width: 100%;
 }
 
+footer p {
+    font-size: 15px;
+    color: #505050;
+}
+
 .form-footer p {
     margin-top: 10px;
     font-size: 10px;
@@ -210,11 +214,6 @@ label {
 .form-footer p a {
     text-decoration: none;
     color: #0077c5;
-}
-
-footer p {
-    font-size: 15px;
-    color: #505050;
 }
 
 footer {
