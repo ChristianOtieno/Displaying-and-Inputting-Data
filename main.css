@@ -47,9 +47,6 @@ body {
     background: white;
 }
 
-
-/* The header begins */
-
 header {
     display: flex;
     justify-content: right;
@@ -90,12 +87,6 @@ header {
     bottom: 10px;
 }
 
-
-/* The header ends */
-
-
-/* Form Begins */
-
 section {
     width: 400px;
     margin: auto;
@@ -130,12 +121,6 @@ section {
     color: grey;
     position: relative;
 }
-
-
-/* Form Ends */
-
-
-/* Form Body Begins */
 
 .form-section {
     display: flex;
