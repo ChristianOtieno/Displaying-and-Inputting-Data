@@ -48,14 +48,13 @@ header {
     display: flex;
     justify-content: flex-end;
     padding: 10px 0 10px 0;
-
 }
 
 .signIn {
     display: flex;
     flex-direction: column;
-}
 
+}
 .signinButton input {
     height: 40px;
     margin-right: 15px;
@@ -108,10 +107,8 @@ section {
     display: flex;
 }
 
-.intuit-logo{
-  
-    filter: grayscale(90%);
-   
+.intuit-logo{ 
+    filter: grayscale(90%); 
 }
 
 .form-logos img:first-child{
