@@ -108,10 +108,9 @@ section {
 }
 
 .intuit-logo{
-    /* display: flex;
-    justify-content:center; */
-    /* filter:grayscale(100%); */
-    /* border: red solid 2px; */
+  
+    filter: grayscale(90%);
+   
 }
 
 .form-logos img:first-child{
