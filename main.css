@@ -111,13 +111,13 @@ section {
     filter: grayscale(90%);
 }
 
-.form-logos img:first-child {
-    border-radius: 50%;
-}
-
 .form-logos img {
     height: 30px;
     width: 30px;
+}
+
+.form-logos img:first-child {
+    border-radius: 50%;
 }
 
 .formTitle a {
